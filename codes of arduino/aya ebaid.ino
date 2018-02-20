@@ -1,4 +1,5 @@
 int ledpins[] ={4,5,6,7};
+int k=0;
 void setup() {
   // put your setup code here, to run once:
 for(int index=0;index<4;index++)
@@ -17,14 +18,14 @@ for(int k=0;k<4;k++);
       digitalWrite (ledpins[x],HIGH);
       delay(1000);
       digitalWrite (ledpins[x],LOW);
-      delay(1000);
+      
     }
   }
 
   digitalWrite (ledpins[k],HIGH);
   delay(1000);
   digitalWrite (ledpins[k],LOW);
-  delay(1000);
+  
 }
   
 }
