@@ -28,9 +28,9 @@ void loop() {
       
       case 'F': //FORWARD
           digitalWrite(motorControllA, HIGH);
-          digitalWrite(motorControllB, HIGH);
+          digitalWrite(motorControllB, LOW);
           digitalWrite(motorControllC, HIGH);
-          digitalWrite(motorControllD, HIGH);
+          digitalWrite(motorControllD, LOW);
         break;
         
    
