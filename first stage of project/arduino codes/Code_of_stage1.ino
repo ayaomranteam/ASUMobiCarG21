@@ -52,7 +52,7 @@ void loop() {
       speedcar=255;
           digitalWrite(motorControllA, LOW);
           digitalWrite(motorControllB, HIGH);
-          analogWrite(motorSpeed1, speedcar);
+          
 
           digitalWrite(motorControllC, LOW);
           digitalWrite(motorControllD, HIGH);
