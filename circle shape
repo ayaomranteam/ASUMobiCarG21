@@ -1,0 +1,34 @@
+for(int g=1;g<120;g++){
+                speedcar=120;
+    digitalWrite(motorControllA, LOW);
+        digitalWrite(motorControllB, HIGH);
+         analogWrite(enable1, speedcar);
+        
+
+        digitalWrite(motorControllC, LOW);
+        digitalWrite(motorControllD, HIGH);
+        analogWrite(enable2, speedcar);
+              delay(300);
+                 speedcar=120;
+        digitalWrite(motorControllA, LOW);
+        digitalWrite(motorControllB, HIGH);
+         analogWrite(enable1, speedcar);
+
+
+        digitalWrite(motorControllC, LOW);
+        digitalWrite(motorControllD, LOW);
+         analogWrite(enable2, speedcar);
+         delay(150);
+             } 
+            speedcar=0;
+digitalWrite(motorControllA, LOW);
+     digitalWrite(motorControllB, LOW);
+     analogWrite(enable1, speedcar);
+
+
+     digitalWrite(motorControllC, LOW);
+     digitalWrite(motorControllD, LOW);
+     analogWrite(enable2, speedcar);
+     delay (2500);
+             
+             }
